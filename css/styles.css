@@ -1,0 +1,342 @@
+/* FONTS */
+
+
+/* GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color: rgba(255, 234, 213, 1);
+}
+
+a {
+    text-decoration: none;
+    color: rgba(249, 196, 153, 1);
+}
+
+p {
+    color: rgba(249, 196, 153, 1);
+}
+
+h1 {
+    text-align: center;
+    color: rgba(081, 042, 057, 1);
+    background-color: rgba(182, 077, 055, 0.75);
+    width: 100%;
+    font-size: 2.5rem;;
+    padding: 0.5rem;
+    margin: 1rem auto;
+}
+
+h2 {
+    color: rgba(228, 142, 050, 1);
+}
+
+/* HEADER */
+header {
+    background-image: url("../images/pinkmagicedit.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+#top {
+    height: 10%;
+    background-color: rgba(18, 9, 15, 0.5);
+    padding: 0.5rem 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#company-name {
+    display: flex;
+    align-items: flex-end;
+}
+
+#company-name p {
+    font-size: 1.5rem;
+    color: rgba(249, 196, 153, 1);
+}
+
+#logo {
+    height: 2.5rem;
+}
+
+nav ul {
+    display: inline-flex;
+}
+
+nav li {
+    text-transform: uppercase;
+    padding: 0.5rem 1em;
+    list-style: none;
+    border-bottom: 0.1rem solid rgba(249, 196, 153, 0.5);
+    border-top: 0.1rem solid rgba(249, 196, 153, 0.5);
+}
+
+#active {
+    border-bottom: 0.1rem solid rgba(228, 142, 050, 1);
+    border-top: 0.1rem solid rgba(228, 142, 050, 1);
+}
+
+#headtext-box {
+    height: 90%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.head-text {
+    text-align: center;
+    width: 30%;
+    min-width: 300px;
+    background-color: rgba(18, 9, 15, 0.5);
+    padding: 1rem;
+    margin: 0 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.head-text p {
+    padding: 1rem;
+}
+
+#shop-button {
+
+    width: 150px;
+    padding: 0.5rem;
+    color: rgba(228, 142, 050, 1);
+    background-color: rgba(182, 077, 055, 1);
+    border-radius: 0.75rem;
+}
+
+/* ABOUT */
+#about {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#about p {
+    color: rgba(18, 9, 15, 1);
+}
+
+.point {    
+    width: 25%;
+    min-width: 500px;
+    margin: 1rem;
+    padding-left: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.one {
+    width: 50px;
+    height: 60px;
+}
+
+.two {
+    width: 50px;
+    height: 50px;
+}
+
+#about article {
+    padding: 2.25rem 1rem;
+}
+
+/* TEAM */
+#team {
+    background-image: url("../images/shopfront.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#team-box {
+    width: 100%;
+    padding: 1rem 0rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#team article {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#team img {
+    width: 90%;
+    margin: 1rem;
+    border: 0.3rem solid rgba(018, 009, 015, 0.75);
+    border-radius: 4rem;
+}
+
+/* PRODUCTS */
+#products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#links {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-box {
+    width: 25%;
+    min-width: 250px;
+    min-height: 250px;
+    margin:2rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#links h2 {
+    background-color: rgba(182, 077, 055, 0.9);
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+#jokes {
+    background-image: url("../images/joke.jpg");
+}
+
+#explosives {
+    background-image: url("../images/explosive.jpg");
+}
+
+#games {
+    background-image: url("../images/chess.jpg");
+}
+
+#school {
+    background-image: url("../images/school.jpg");
+}
+
+#wonderwitch {
+    background-image: url("../images/potions.jpg");
+}
+
+#sweets {
+    background-image: url("../images/treats.jpg");
+}
+
+/* CONTACT */
+#contact {
+    background-image: url("../images/magichands.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact-info  {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.contact-box {
+    padding: 2rem;
+    margin: 1rem;
+    background-color: rgba(29, 20, 40, 0.75);
+}
+
+.contact-box img {
+    height: 70px;
+}
+
+footer p {
+    text-align: center;
+    color: rgba(29, 20, 40, 1);
+    background-color: rgba(249, 196, 153, 0.05);
+    margin-bottom: 1rem;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 1170px) {
+    #company-name p {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    html {
+        font-size: 16px;
+    }
+
+    header {
+        height: 400px;
+    }
+
+    #top {
+        padding: 0.5rem 1rem;
+    }
+
+    nav li {
+        font-size: 0.75rem;
+    }
+
+    .head-text {
+        min-width: 200px;
+    }
+
+    .point {
+        min-width: 300px;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    header {
+        height: 300px;
+    }
+
+    #top {
+        padding: 0.5rem 0.5rem;
+    }
+
+    #logo {
+        height: 1.5rem;
+    }
+
+    nav li {
+        font-size: 0.5rem;
+    }
+
+    .head-text {
+        width: 80%;
+    }
+
+    .contact-box {
+        padding: 0.75rem;
+        margin: 0.2rem;
+    }
+}
